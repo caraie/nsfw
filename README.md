@@ -27,6 +27,7 @@ When NSFW has events and is not being throttled, it will group those events in t
 
 So why NSFW? Because it has a consistent and minimal footprint in the Javascript layer, manages recursive watching for you, and is super easy to use.
 
+
 ## Usage
 
 ```js
@@ -118,3 +119,15 @@ nsfw.actions = {
 ## Installation
 NSFW is a native node module and requires Node-Gyp to be functional before you can install it.
 Make sure you have completed installing all of the dependencies listed for [Node-Gyp](https://github.com/nodejs/node-gyp) on your operating system.
+
+## node-pre-gyp
+Node pre gyp was added, so we can use different prebuilt versions or rebuild for one specific platform.
+
+## Rebuilding for electron
+Choose a node electron version to prebuild from this versions
+
+https://github.com/electron/node
+
+```
+npm install --runtime=electron --target=12.4.0
+```
