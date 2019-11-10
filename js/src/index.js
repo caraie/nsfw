@@ -1,7 +1,7 @@
 const binary = require('node-pre-gyp');
 const fse = require('fs-extra');
 const path = require('path');
-const binding_path = binary.find(path.resolve(path.join(__dirname,'../../','./package.json')));
+const binding_path = binary.find(path.resolve(path.join('../../','./package.json')));
 const { NSFW } = require(binding_path);
 const _isInteger = require('lodash.isinteger');
 const _isUndefined = require('lodash.isundefined');
