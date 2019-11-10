@@ -32,10 +32,10 @@
     "lodash.isinteger": "^4.0.4",
     "lodash.isundefined": "^3.0.1",
     "nan": "^2.0.0",
-    "node-pre-gyp": "0.12.0"
+    "node-pre-gyp": "0.12.0",
+    "aws-sdk": "^2.568.0"
   },
   "devDependencies": {
-    "aws-sdk": "^2.568.0",
     "babel-cli": "^6.5.1",
     "babel-preset-es2015": "^6.5.0",
     "eslint": "^2.2.0",
