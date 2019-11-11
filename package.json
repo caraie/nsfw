@@ -22,6 +22,9 @@
     "url": "https://github.com/axosoft/node-simple-file-watcher/issues"
   },
   "files": [
+    "typings.d.ts",
+    "src",
+    "includes",
     "lib",
     "Release",
     "binding.gyp"
