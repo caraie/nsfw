@@ -131,3 +131,11 @@ https://github.com/electron/node
 ```
 npm install --runtime=electron --target=12.4.0
 ```
+or 
+```
+ npm i --runtime=node --target_platform=linux --target_arch=x64 --target=10.17.0
+```
+
+For other platforms and architectures check
+
+https://www.npmjs.com/package/node-pre-gyp
